@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR Registration Form</title>
+</head>
+<body>
+    <h2>Application for Learner's Licence</h2>
+    <h4>Select state and  RTO office from where LL is being applied</h4>
+    <form>
+    <label for="state">State</label> <select id="select" name="select">
+        <option value="Andra Pradesh">Andra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujrat">Gujrat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+    </select>
+</form> <br>
+<form>
+
+    <label for="fRTO Office">RTO Office</label> <select id="select" name="select">
+        <option value="Khairtabad">Khairtabad</option>
+        <option value="Unit Office">Unit office</option>
+        <option value="RTA RANGAREDDY EAST">RTA RANGAREDDY EAST</option>
+    </select>
+
+</form><br>`
+<form action="main.py">
+    <label for="fPIN CODE">PIN CODE</label>
+    <input type="text" id="fpin code" name="fpin code">
+
+</form>
+<form action="main.py">
+    <fieldset>
+        <legend>Persional Details</legend>
+        <lable for="fname">Name of Applicant</lable> <input type="text" id="fname" name="fname">
+        <lable for="age">age</lable> <input type="number" id="age" name="age"> <br>
+        <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"> <lable for="Gender">Gender</lable> <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="fmale">Female <br> 
+   <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+    </fieldset>
+    <div>
+        <label for="vehicle">Types of Vehicle</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label> <br>
+    </div><div>
+        
+        <div class="dropdown-content">
+           <label for="Dropdown">Vehicle</label>
+           <select name="Dropdown" id="DD">
+            <option value="Apachi">Apachi</option>
+            <option value="Belano">Belano</option>
+           </select>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
